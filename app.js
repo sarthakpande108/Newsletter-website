@@ -31,7 +31,7 @@ app.post("/",function(req,res){
   const url="https://us12.api.mailchimp.com/3.0/lists/38606a9b5e";
   var options={
     method:"POST",
-    auth:"sarthak:s467c84c90c17b836842ae13ab3d674b6-us12"
+    auth:"sarthak:467c84c90c17b836842ae13ab3d674b6-us12"
   }
  const request=https.request(url,options,function(response){
   if(response.statusCode===200){
